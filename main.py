@@ -8,7 +8,7 @@ import logging
 
 
 from aiogram import Bot, Dispatcher, executor, types
-from functions import get_times, get_time
+from functions import get_times, get_date
 from config import API_TOKEN
 
 
@@ -204,7 +204,7 @@ async def send_welcome(msg: types.Message):
 @dp.message_handler(commands=['time'])
 
 async def send_welcome(msg: types.Message):
-    times = get_time()
+    times = get_date()
     await bot.send_message(msg.from_user.id, text=times)
 
   
