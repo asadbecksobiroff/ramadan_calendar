@@ -13,7 +13,7 @@ from functions import get_times
 
 PROXY_URL = "http://proxy.server:3128" #zarur emas, pythonanywhere serveri ishlashi uchun
 
-API_TOKEN = '6767169445:AAETMtU6_XZ7a4mnjxQ3i3fNtLqCQ9LcPGg'
+API_TOKEN = 'YOUR API TOKEN'
 
 
 # Configure logging
