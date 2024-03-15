@@ -202,30 +202,6 @@ async def send_welcome(msg: types.Message):
     await bot.send_message(msg.from_user.id, text=text)
     
   
-
-
-# @dp.message_handler()
-
-# async def conspect(msg: types.Message):
-
-#     await msg.answer(text="Iltimos, bir oz kutib turing🕓\nKonspekt tayyorlanmoqda🚀")
-
-#     text = msg.text
-#     typePaper = 'katak'
-
-#     Text = Con(text)
-
-#     konspekt = Main(typePaper+'1')
-#     konspekt.write(Text)
-
-#     photo = open('./images/result/Konspekt.png', 'rb')
-#     await bot.send_photo(msg.chat.id, photo)
-
-
-#     # await msg.answer(msg.text)
-
-
-
 if __name__ == '__main__':
 
     executor.start_polling(dp, skip_updates=True)
