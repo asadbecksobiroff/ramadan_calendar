@@ -199,7 +199,14 @@ async def send_welcome(msg: types.Message):
     text += f"Iftorlik vaqti: {times[1]} \n\n"
     text += "Ma'lumotlar islom.uz saytidan olindi."
     await bot.send_message(msg.from_user.id, text=text)
-    
+
+
+@dp.message_handler(commands=['time'])
+
+async def send_welcome(msg: types.Message):
+    times = get_time()
+    await bot.send_message(msg.from_user.id, text=times)
+
   
 if __name__ == '__main__':
 
