@@ -2,6 +2,10 @@ from bs4 import BeautifulSoup
 import requests
 from datetime import datetime
 
+def get_time():
+    return datetime.now()
+
+
 def get_times(code):
     locations = {
         'andijon': 1,
