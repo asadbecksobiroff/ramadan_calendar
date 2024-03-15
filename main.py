@@ -9,6 +9,7 @@ import logging
 
 from aiogram import Bot, Dispatcher, executor, types
 from functions import get_times
+from config import API_TOKEN
 
 
 PROXY_URL = "http://proxy.server:3128" #zarur emas, pythonanywhere serveri ishlashi uchun
