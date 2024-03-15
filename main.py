@@ -23,7 +23,7 @@ logging.basicConfig(level=logging.INFO)
 
 # Initialize bot and dispatcher
 
-bot = Bot(token=TOKEN)
+bot = Bot(token=API_TOKEN)
 
 dp = Dispatcher(bot)
 
