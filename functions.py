@@ -142,4 +142,3 @@ def get_times(city):
         return False
     else:
         return False
-get_times('andijon')
