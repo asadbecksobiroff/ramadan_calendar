@@ -118,7 +118,7 @@ def get_times(city):
     city_code = locations[city]
     
     if data[city_code]['date'] == today.date():
-        return data[city_code]['saharlik'], data[city_code]['iftorlik']+':00'
+        return data[city_code]['saharlik'], data[city_code]['iftorlik']
     
     month = today.month
     url = f'https://islom.uz/vaqtlar/{city_code}/{month}'
