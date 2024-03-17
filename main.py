@@ -1,9 +1,3 @@
-"""
-Created on Thu Mar 14 21:55:10 2024
-
-@author: Asadbek
-"""
-
 import logging
 
 
