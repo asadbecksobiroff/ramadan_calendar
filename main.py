@@ -1,6 +1,5 @@
 import logging
 
-
 from aiogram import Bot, Dispatcher, executor, types
 from functions import get_times, get_day_info
 from config import API_TOKEN
